@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    color: rgb(65, 65, 65);
+    font-family:'lato', 'arial', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    padding-bottom: 63px;
+}
+
+.nav{
+    box-shadow: 0 2px 2px rgb(160, 158, 158);
+    width: 100%;
+    position: absolute;
+    background-color: rgb(43, 42, 42);
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    width: auto;
+    margin: 5px 0;
+}
+
+.section-signin{
+    background-image: linear-gradient(rgba(44, 44, 44, 0.76), rgba(44, 44, 44, 0.76)), url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.main-nav{
+    float: right;
+}
+
+.main-nav li{
+    display: inline-block;
+    padding-right: 25px;
+    margin-top: 18px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: wheat;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 150%;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 30px;
+    color: burlywood;
+}
+
+.section-signin{
+    width: 100%;
+    margin: 0 auto;
+}
+
+label,
+span{
+    margin-top: 30px;
+}
+
+label{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    color: burlywood;
+}
+
+span{
+    display: inline-block;
+    text-align: right;
+    width: 63%;
+}
+
+input[type=email],
+input[type=password]{
+    width: 100%;
+    padding: 7px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+/*--Buttons-*/
+
+.btn-login:link,
+.btn-login:visited {
+    display: inline-block;
+    border: 2px solid #b65908;
+    background-color: #b86008;
+    border-radius: 25%;
+    text-decoration: none;
+    padding: 3px 5px;
+    float: left;
+    margin-top: 15px;
+    color: wheat;
+    font-weight: 300;
+    position: relative;
+    font-size: 110%;
+}
+
+.btn-login:hover,
+.btn-login:active{
+    background-color: orangered;
+}
+
+.forgot-pass{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 18px 0 0 30px;
+}
+
+.create{
+    color: white;
+    display: inherit;
+    margin-top: 12px;
+}
+
+.create-btn{
+    margin-top: 25px;
+    color: orangered;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+
